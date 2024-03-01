@@ -1,135 +1,223 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
-    <title>Homepage</title>
-    <style>
-        .container {
-            width: 100%;
-            text-align: center;
-        }
-        .cover-photo {
-            width: 100%;
-            height: auto;
-        }
-        .content-block {
-            display: flex;
-            justify-content: space-between;
-            margin-top: 20px;
-        }
-        .left, .right {
-            width: 50%;
-        }
-        .text-content, .image-content {
-            margin: 10px;
-            padding: 10px;
-        }
-        .map-block {
-            display: flex;
-            justify-content: space-between;
-            margin-top: 20px;
-        }
-        .map {
-            width: 48%;
-            height: 300px;
-            margin: 10px;
-        }
-        iframe {
-            width: 100%;
-            height: 100%;
-        }
-    </style>
+  <title>Loja de Parafusos</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+    .container {
+      display: flex;
+      justify-content: space-between;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    /* Estilo para a coluna de texto à esquerda */
+    .text-column-left {
+      width: 48%;
+    }
+
+    /* Estilo para a coluna de texto à direita */
+    .text-column-right {
+      width: 48%;
+    }
+
+    /* Estilo para a coluna de imagem à esquerda */
+    .image-column-left {
+      width: 48%;
+    }
+
+    /* Estilo para a coluna de imagem à direita */
+    .image-column-right {
+      width: 48%;
+    }
+
+    div.container-fluid.p-5.text-white.text-center {
+      background-color: #5F896C;
+    }
+
+    div.container-fluid.p-5.text-black.text-center {
+      font-size: 25px;
+      text-decoration: none;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    /* Create two equal columns that float next to each other */
+    .column {
+      flex: 10;
+      text-align: center;
+      padding: 50px;
+      height: 600px;
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  </style>
 </head>
+
 <body>
+
+  <div class="container-fluid p-5 text-white text-center">
+    <h1>Podologo</h1>
+    <p>descrição</p>
+  </div>
+
+  <div class="container-fluid p-5 text-black text-center">
+    
     <div class="container">
-        <img src="URL_DA_SUA_IMAGEM_AQUI" alt="Capa" class="cover-photo">
-        <h1>Podólogo</h1>
+        <div class="image-column-left">
+          <img src="link da imagem" alt="Sua Imagem" width="580" height="500">
+        </div>
+        <div class="text-column-right">
+          <h2 style="font-size: 28px;">Pé & Corpo | <a href="https://maps.google.com/maps?cid=9329066601190808564">Podologia</a> e Estética</h2>
+          <br>
+          <p style="font-size: 16px;"></p>
+        </div>
+      </div>
+  </div>
+<br><br><br></br>
+  <div class="container">
+    <div class="text-column-left">
+      <h2>Título 1​</h2>
+      <p style="font-size: 16px;">Descrição</p>
+    </div>
+    <div class="image-column-right">
+      <img src="link da imagem" alt="Sua Imagem" width="580" height="500">
+    </div>
+  </div>
+<br><br><br></br>
+ <div class="container">
+  <div class="image-column-left">
+    <img src="link da imagem" alt="Sua Imagem" width="580" height="500">
+  </div>
+  <div class="text-column-right">
+    <h2>Título 2</h2>
+      <p style="font-size: 16px;">Descrição 2</p>
+  </div>
+</div>
+<br><br><br></br>
+  <div class="container">
+    <div class="text-column-left">
+        <h2>Título 3</h2>
+        <p style="font-size: 16px;">Descrição 3</p>
+    </div>
+    <div class="image-column-right">
+      <img src="link da imagem" alt="Sua Imagem" width="580" height="500">
+    </div>
+  </div>
+<br><br><br></br>
+  <div class="container-fluid p-5 text-black text-center">
+    
+    <div class="container">
+        <div class="image-column-left">
+          <img src="link da imagem" alt="Sua Imagem" width="580" height="500">
+        </div>
+        <div class="text-column-right">
+            <h2>Título 4</h2>
+            <p style="font-size: 16px;">Descrição 4</p>
+        </div>
+      </div>
+      <div class="container mt-5">
+        <div class="mt-4 p-5 text-black rounded">
+          <div style="display: flex; justify-content: space-between;">
+    
+            <div style="width: 48%;" class="text-column-left">
+              <b>Pé & Corpo | Podologia e Estética</b>
+              <br></br>
+              <b>Rua da Passagem, 75 - loja E - Botafogo, Rio de Janeiro - RJ, 22290-030</b>
+              <br></br>
+              <b>(21) 98241-3341</b>
+              <br></br>
+              <b><a href="http://www.veppel.com.br/">http://www.veppel.com.br/</a><br></b>
+              <br></br>
+              <br><b>Horário de Funcionamento:</b>
+              <br>Segunda a Sábado 08:00 as 19:00
+            </div>
+    
+            <div style="width: 48%;" class="image-column-right">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3673.9326465737267!2d-43.1818333!3d-22.952707500000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997f81967d0617%3A0x817780a571f05bf4!2sP%C3%A9%20%26%20Corpo%20%7C%20Podologia%20e%20Est%C3%A9tica!5e0!3m2!1spt-BR!2sbr!4v1709313936896!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+      <br><br><br></br>
+          </div>
+        </div>
+      </div>
 
-        <!-- Conteúdo principal -->
-<!-- Bloco 1 -->
-<h2><a href="link cid aqui">Podologo</a></h2>
-<div class="content-block">
-    <div class="left image-content">
-        <img src="URL_DA_IMAGEM_AQUI" alt="Imagem">
+<a href=""></a>
+<br>
+<a href=""></a>
+<br>
+<a href=""></a>
+<br>
+<a href=""></a>
+<br>
+<a href=""></a>
+<br>
+<a href=""></a>
+  <br></br>
+  
+<center><div class="row">
+  <div class="column">
+    
+  </div>
+  <div class="column" >
+   
+  </div>
+<div class="row">
+    <div class="column">
+      
     </div>
-    <div class="right text-content">
-        Seu texto aqui.
+    <div class="column">
+      
     </div>
+<div class="row">
+      <div class="column">
+       
+      </div>
+      <div class="row">
+        <div class="column">
+         
+        </div>
+        <div class="row">
+            <div class="column">
+             
+            </div>
 </div>
+<br></br>
 
-<!-- Bloco 2 - Invertido -->
-<h2><a href="LINK_AQUI">Podólogo</a></h2>
-<div class="content-block">
-    <div class="left text-content">
-        Seu texto aqui.
-    </div>
-    <div class="right image-content">
-        <img src="URL_DA_IMAGEM_AQUI" alt="Imagem">
-    </div>
-</div>
+<a href=""></a>
 
-<!-- Bloco 3 -->
-<h2><a href="LINK_AQUI">Seu Subtítulo 3</a></h2>
-<div class="content-block">
-    <div class="left image-content">
-        <img src="URL_DA_IMAGEM_AQUI" alt="Imagem">
-    </div>
-    <div class="right text-content">
-        Seu texto aqui.
-    </div>
-</div>
+<br></br>
 
-<!-- Bloco 4 - Invertido -->
-<h2><a href="LINK_AQUI">Seu Subtítulo 4</a></h2>
-<div class="content-block">
-    <div class="left text-content">
-        Seu texto aqui.
-    </div>
-    <div class="right image-content">
-        <img src="URL_DA_IMAGEM_AQUI" alt="Imagem">
-    </div>
-</div>
+<a href=""></a>
 
-<!-- Bloco 5 -->
-<h2><a href="LINK_AQUI">Seu Subtítulo 5</a></h2>
-<div class="content-block">
-    <div class="left image-content">
-        <img src="URL_DA_IMAGEM_AQUI" alt="Imagem">
-    </div>
-    <div class="right text-content">
-        Seu texto aqui.
-    </div>
-</div>
+​<br></br>
 
-<!-- Blocos para mapas -->
-<!-- Nível 2, 3 e 4 -->
-<div class="map-block">
-    <div class="map">
-    <iframe src="https://www.google.com/maps/d/embed?mid=19mLI4qt7W5SZgUSra-rl6w19GcpEcNc&ehbc=2E312F" width="440" height="580"></iframe>
-</div>
-<div class="map">
-    <iframe src="https://www.google.com/maps/d/embed?mid=1o4VgdWawYUOgtSNnP1kn7tuXCfYLG4k&ehbc=2E312F" width="440" height="580"></iframe>
-</div>
-</div>
-<div class="map-block">
-<div class="map">
-    <iframe src="https://www.google.com/maps/d/embed?mid=1bbDOwCVkQya7pGbHIt6s-YXZwkCxiSI&ehbc=2E312F" width="440" height="580"></iframe>
-</div>
-<div class="map">
-    <iframe src="https://www.google.com/maps/d/embed?mid=1eyiVGvxGFvqTsjFGOsSR2BqaeWg7xZA&ehbc=2E312F" width="440" height="580"></iframe>
-</div>
-</div>
-<div class="map-block">
-<div class="map">
-    <iframe src="https://www.google.com/maps/d/embed?mid=1P_2_G6Zi781hTxM2oQPL7TyZBhxjX0g&ehbc=2E312F" width="440" height="580"></iframe>
-</div>
-<div class="map">
-   <iframe src="https://www.google.com/maps/d/embed?mid=1tWqoEAyEUwc_AfkMcTRhddQLVvSjbf4&ehbc=2E312F" width="440" height="580"></iframe>
-</div>
-</div>
-<div class="map-block">
-<div class="map">
-    <iframe src="https://www.google.com/maps/d/embed?mid=19IjBsztC87bLTQibLeQJGFmkfZoN5Sk&ehbc=2E312F" width="440" height="580"></iframe>
-</div>
-</div>
+<a href=""></a>
+
+​<br></br>
+
+<a href=""></a>
+
+​<br></br>
+
+<a href=""></a>
+
+​<br></br>
+
+<a href=""></a>
+
+​<br></br>
+
+<a href=""></a>
+      
 </body>
-</html>
+      </html>
